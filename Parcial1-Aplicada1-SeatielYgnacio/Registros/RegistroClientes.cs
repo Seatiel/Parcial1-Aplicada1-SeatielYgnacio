@@ -62,12 +62,7 @@ namespace Parcial1_Aplicada1_SeatielYgnacio.Registros
 
         private void Modificarbutton_Click(object sender, EventArgs e)
         {
-            Clientes cliente = new Clientes();
-
-            if (ClientesBll.Modificar(cliente))
-            {
-                MessageBox.Show("Se ha Modificado.");
-            }
+            
         }
     }
 }
